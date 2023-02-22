@@ -1,0 +1,65 @@
+
+---------------NEW SESSION---------------
+command 3 - 'AddPatient' called 
+New doctor: Smith added to doctor list
+Patient ID: 1, Name: James R Dirr - added to treated
+command 4 - 'AddMultiPatients' called 
+File patients.txt opened
+Patient: ID: 2, Name: Mike L Clark Jr added to triage
+New doctor: Suess added to doctor list
+Patient: ID: 3, Name: Amy N Clark  added to triage
+New doctor: Pepper added to doctor list
+Patient: ID: 4, Name: Daniel Lee Clark  added to triage
+New doctor: House added to doctor list
+3 patients added from patients.txt
+patients.txtclosed
+command 4 - 'AddMultiPatients' called 
+File fakefile.txt could not be opened
+command 8 - 'PatientReport' called 
+Patient of ID number: 10 does not exist
+command 8 - 'PatientReport' called 
+ID: 1, Name: James R Dirr - report printed
+command 10 - 'Triage' Called
+ID: 3, Name: Amy N Clark  report printed
+ID: 2, Name: Mike L Clark Jr report printed
+ID: 4, Name: Daniel Lee Clark  report printed
+Triage list Printed
+command 7 - 'TreatAll' called 
+Patient ID: 3, Name: Amy N Clark  treated
+Patient ID: 3, Name: Amy N Clark  added to treated
+Patient ID: 2, Name: Mike L Clark Jr treated
+Patient ID: 2, Name: Mike L Clark Jr added to treated
+Patient ID: 4, Name: Daniel Lee Clark  treated
+Patient ID: 4, Name: Daniel Lee Clark  added to treated
+3 patients treated
+command 11 - 'TreatedReport' Called
+ID: 1, Name: James R Dirr - report printed
+ID: 3, Name: Amy N Clark  report printed
+ID: 2, Name: Mike L Clark Jr report printed
+ID: 4, Name: Daniel Lee Clark  report printed
+command 9 - 'PatientByDoctor' called 
+Doctor: House
+ID: 4, Name: Daniel Lee Clark  
+Doctor: Pepper
+ID: 3, Name: Amy N Clark  
+Doctor: Smith
+ID: 1, Name: James R Dirr - 
+Doctor: Suess
+ID: 2, Name: Mike L Clark Jr 
+command 3 - 'AddPatient' called 
+Patient ID: 5, Name: Hanna B Cool Jr added to triage
+command 9 - 'PatientByDoctor' called 
+Doctor: House
+ID: 4, Name: Daniel Lee Clark  
+Doctor: Pepper
+ID: 3, Name: Amy N Clark  
+Doctor: Smith
+ID: 1, Name: James R Dirr - 
+ID: 5, Name: Hanna B Cool Jr 
+Doctor: Suess
+ID: 2, Name: Mike L Clark Jr 
+command 6 - 'TreatPatient' called 
+Patient ID: 5, Name: Hanna B Cool Jr treated
+Patient ID: 5, Name: Hanna B Cool Jr added to treated
+command 0 - 'Exit' Called 
+---------------END SESSION---------------
